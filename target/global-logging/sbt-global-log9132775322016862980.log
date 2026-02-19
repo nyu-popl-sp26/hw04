@@ -1,0 +1,463 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(c6c3f900-e3e9-4fb7-93eb-da5d872eb445), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/elaineli/Programs/nyu-popl-sp26/hw04/target/scala-3.8.1/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mhw04Spec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAnd[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return true only if both expressions are true *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy1$1(hw04Spec.scala:13)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$1(hw04Spec.scala:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAnd[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return non-intuitive results from differing types *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy2$1(hw04Spec.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$2(hw04Spec.scala:19)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mOr[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return true if either or both expressions are true *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy3$1(hw04Spec.scala:29)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$3(hw04Spec.scala:26)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mOr[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return non-intuitive results from differing types *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy4$1(hw04Spec.scala:38)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$4(hw04Spec.scala:35)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPlus[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should add two number values and return a number *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy5$1(hw04Spec.scala:46)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$5(hw04Spec.scala:43)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMinus[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should subtract two number values and return a number *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy6$1(hw04Spec.scala:53)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$6(hw04Spec.scala:50)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTimes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should multiply two number values and return a number *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy7$1(hw04Spec.scala:60)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$7(hw04Spec.scala:57)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDiv[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should divide two number values and return a number *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy8$1(hw04Spec.scala:67)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$8(hw04Spec.scala:64)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mArithmetic Operators[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should produce non-intuitive solutions given differing expression types *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy9$1(hw04Spec.scala:74)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$9(hw04Spec.scala:71)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEq[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return true if two numerical values are the same *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy10$1(hw04Spec.scala:80)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$10(hw04Spec.scala:77)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEq[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return false if two numerical values are not the same *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy11$1(hw04Spec.scala:87)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$11(hw04Spec.scala:84)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNe[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return true if two numerical values are different *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy12$1(hw04Spec.scala:94)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$12(hw04Spec.scala:91)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNe[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return false if two numerical values are the same *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy13$1(hw04Spec.scala:101)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$13(hw04Spec.scala:98)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLt[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return true if the first expression is less than the second *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy14$1(hw04Spec.scala:108)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$14(hw04Spec.scala:105)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLt[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return false if the first expression is not strictly less than the second *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy15$1(hw04Spec.scala:115)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$15(hw04Spec.scala:112)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLt[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return false if two number values are the same *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy16$1(hw04Spec.scala:122)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$16(hw04Spec.scala:119)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLe[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return true if the first expression is less than the second *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy17$1(hw04Spec.scala:129)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$17(hw04Spec.scala:126)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLe[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return false if the first expression is greater than the second *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy18$1(hw04Spec.scala:136)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$18(hw04Spec.scala:133)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLe[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return true if two number values are the same *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy19$1(hw04Spec.scala:143)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$19(hw04Spec.scala:140)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGt[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return true if the first expression is greater than the second *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy20$1(hw04Spec.scala:150)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$20(hw04Spec.scala:147)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGt[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return false if the first expression is not strictly greater than the second *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy21$1(hw04Spec.scala:157)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$21(hw04Spec.scala:154)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGt[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return false if two number values are the same *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy22$1(hw04Spec.scala:164)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$22(hw04Spec.scala:161)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGe[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return true if the first expression is greater than the second *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy23$1(hw04Spec.scala:171)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$23(hw04Spec.scala:168)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGe[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return false if the first expression is less than the second *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy24$1(hw04Spec.scala:178)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$24(hw04Spec.scala:175)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGe[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return true if two number values are the same *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy25$1(hw04Spec.scala:185)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$25(hw04Spec.scala:182)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mComparisons[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should produce non-intuitive results given the expressions given *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy26$1(hw04Spec.scala:192)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$26(hw04Spec.scala:189)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mConstDecl[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should extend the environment with the first expression results bound to the identifier, and then eval the second expression *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy27$1(hw04Spec.scala:198)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$27(hw04Spec.scala:195)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mIf[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should eval the first expression if the conditional is true *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy28$1(hw04Spec.scala:205)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$28(hw04Spec.scala:202)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mIf[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should eval the second expression if the conditional is false *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy29$1(hw04Spec.scala:212)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$29(hw04Spec.scala:209)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSeq[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should execute the first expression, followed by the second, and should eval to the second expression *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy30$1(hw04Spec.scala:219)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$30(hw04Spec.scala:216)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNeg[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return the negation of a number value *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy31$1(hw04Spec.scala:225)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$31(hw04Spec.scala:223)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNot[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return the compliment of a boolean value *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:86)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04$.eval(hw04.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.testFun$proxy32$1(hw04Spec.scala:232)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at popl.hw04Spec.$init$$$anonfun$32(hw04Spec.scala:229)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 400 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 32[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 32, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 32 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	popl.hw04Spec[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed Feb 19, 2026, 1:27:46 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
