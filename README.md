@@ -1,6 +1,6 @@
 ## Homework 4
 
-The deadline for Homework 4 is Thursday, February 26, 2pm. 
+The deadline for Homework 4 is ~~Thursday, February 26~~ Tuesday, March 3, 2pm. 
 
 Refer to the homework handout [`hw04.pdf`](hw04.pdf) for details about the assignment. This file provides some information to help you get started with setting up your development environment for the homework assignments.
 
